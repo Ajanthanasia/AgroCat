@@ -56,55 +56,57 @@
 </header>
 @yield('content')
 
+<section class="newsletter">
+    <section class="footer">
 
-<section class="footer">
+        <div class="box-container">
 
-    <div class="box-container">
-
-        <div class="box">
-            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>AgroCat</a>
-            <p>Come and buy product easy</p>
-         <!--   <div class="share">
-                <a href="#" class="btn fab fa-facebook-f"></a>
-                <a href="#" class="btn fab fa-twitter"></a>
-                <a href="#" class="btn fab fa-instagram"></a>
-                <a href="#" class="btn fab fa-linkedin"></a>
-            </div>  -->
-        </div>
-        
-        <div class="box">
-            <h3>our location</h3>
-            <div class="links">
-                <a href="#">Jaffna</a>
-                <a href="#">Kilinochchi</a>
-                <a href="#">Mullaithivu</a>
-                <a href="#">Vavuniya</a>
-                <a href="#">Batticaloa</a>
+            <div class="box">
+                <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>AgroCat</a>
+                <p>Come and buy product easy</p>
+            <!--   <div class="share">
+                    <a href="#" class="btn fab fa-facebook-f"></a>
+                    <a href="#" class="btn fab fa-twitter"></a>
+                    <a href="#" class="btn fab fa-instagram"></a>
+                    <a href="#" class="btn fab fa-linkedin"></a>
+                </div>  -->
             </div>
-        </div>
-
-        <div class="box">
-            <h3>quick links</h3>
-            <div class="links">
-                <a href="#">home</a>
-                <a href="#">Farmer</a>
-                <a href="#">product</a>
-                <a href="#">vender</a>
-                <a href="#">contact</a>
+            
+            <div class="box">
+                <h3>our location</h3>
+                <div class="links">
+                    <a href="#">Jaffna</a>
+                    <a href="#">Kilinochchi</a>
+                    <a href="#">Mullaithivu</a>
+                    <a href="#">Vavuniya</a>
+                    <a href="#">Batticaloa</a>
+                </div>
             </div>
-        </div>
 
-        <div class="box">
-            <h3>download app</h3>
-            <div class="links">
-                <a href="#">google play</a>
-               
+            <div class="box">
+                <h3>quick links</h3>
+                <div class="links">
+                    <a href="#">home</a>
+                    <a href="#">Farmer</a>
+                    <a href="#">product</a>
+                    <a href="#">vender</a>
+                    <a href="#">contact</a>
+                </div>
             </div>
+
+            <div class="box">
+                <h3>download app</h3>
+                <div class="links">
+                    <a href="#">google play</a>
+                
+                </div>
+            </div>
+
         </div>
 
-    </div>
+        <h1 class="credit"> created by <span> group D </span> | all rights reserved! </h1>
 
-    <h1 class="credit"> created by <span> group D </span> | all rights reserved! </h1>
+    </section>
 
 </section>
 
