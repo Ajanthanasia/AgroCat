@@ -57,7 +57,10 @@
 @yield('content')
 
 <section class="newsletter">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5367b371e648e7f87061ab78968cc94f78078a76
     <section class="footer">
 
         <div class="box-container">
@@ -102,10 +105,19 @@
                 
                 </div>
             </div>
+<<<<<<< HEAD
 
         </div>
 
         <h1 class="credit"> created by <span> group D </span> | all rights reserved! </h1>
+=======
+
+        </div>
+
+        <h1 class="credit"> created by <span> group D </span> | all rights reserved! </h1>
+
+    </section>
+>>>>>>> 5367b371e648e7f87061ab78968cc94f78078a76
 
     </section>
 </section>
