@@ -1,5 +1,5 @@
 @extends('index')
-@section('content')
+@section('content-1')
 
 <section class="home" id="home">
 
@@ -10,10 +10,14 @@
     <div class="content">
         <span>fresh and organic</span>
         <h3>your daily need products</h3>
-        <a href="{{url('login')}}" class="btn">get started</a>
+        <a href="{{url('/l')}}" class="btn">get started</a>
     </div>
 
 </section>
+
+@endsection
+
+@section('content-2')
 
 <!-- home section ends -->
 
@@ -358,3 +362,4 @@
 </section>
 
 @endsection
+

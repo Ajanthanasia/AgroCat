@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home.index');
 });
+
+Route::get('/l', function () {
+    return view('home.login');
+});
+
+Route::get('/login',[MainController::class,'login']);

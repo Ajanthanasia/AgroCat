@@ -10,6 +10,8 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="home/style.css">
+    <link rel="stylesheet" href="home/login.css">
+  
 
 </head>
 <body>
@@ -54,13 +56,11 @@
     </div>
 
 </header>
-@yield('content')
+@yield('content-1')
+@yield('content-2')
+
 
 <section class="newsletter">
-<<<<<<< HEAD
-
-=======
->>>>>>> 5367b371e648e7f87061ab78968cc94f78078a76
     <section class="footer">
 
         <div class="box-container">
@@ -114,7 +114,7 @@
 
         </div>
 
-        <h1 class="credit"> created by <span> group D </span> | all rights reserved! </h1>
+        
 
     </section>
 >>>>>>> 5367b371e648e7f87061ab78968cc94f78078a76
